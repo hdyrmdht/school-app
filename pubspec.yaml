@@ -1,0 +1,57 @@
+name: classroom
+description: A new Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  font_awesome_flutter:
+  lottie:
+  cupertino_icons: ^1.0.2
+  table_calendar:
+  flutter_barcode_scanner:
+  path_provider:
+  open_file:
+  syncfusion_flutter_pdf:
+  screenshot:
+  share_plus:
+  flutter_speed_dial:
+  dio:
+  bloc:
+  flutter_bloc:
+  webviewx: ^0.2.2
+  google_maps_flutter:
+  flutter_timer_countdown:
+  google_fonts:
+  flutter_svg:
+  percent_indicator:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+flutter:
+
+  uses-material-design: true
+
+
+  assets:
+    - assets/lotties/
+    - assets/images/
+    - assets/avatars/
+    - assets/markers/
+
+
+
+
